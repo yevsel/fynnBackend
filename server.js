@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require('mongoose')
 const userModel = require("./models/user")
 const bodyParser = require("body-parser")
-const jwt = require('jsonwebtoken')
+// const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 require("dotenv").config()
 
